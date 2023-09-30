@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gowiki"
+version = "0.1.0"
+description = ""
+authors = ["KoyanoBunsho <buna40950@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rmsd = "^1.5.1"
+biopandas = "^0.4.1"
+Flask = "^2.3.2"
+transformers = "^4.31.0"
+torch = "^2.0.1"
+psycopg2 = "^2.9.7"
+Flask-Testing = "^0.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
